@@ -1,0 +1,68 @@
+# Site settings
+title: Codalesce
+email: r.nash1@codalesce.com
+url: http://codalesce.com
+description: "Rob, a professional Voice-Over Actor, offers specialized voice-over services for various projects. Available for freelance opportunities."
+keywords: "Voice-Over Actor, Freelance Voice-Over, Narration, Commercials"
+skills: "Freelance Voice-Over Services"
+meta_author: Nash Robert
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Codalesce Ltd. All Rights Reserved. Registered in England & Wales No. 15083491.
+  # location: Location
+  social: Around the Web
+  # credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/robnash123/
+  - title: twitter
+    url: https://twitter.com/BowdusBrown
+  - title: github
+    url: https://github.com/Codalesce
+  - title: medium
+    url: https://medium.com/@nashy123uk
+
+# Postal address (add as many lines as necessary)
+# address:
+  # - line: Cardiff, United Kingdom
+
+# Credits content
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
