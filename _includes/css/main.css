@@ -462,6 +462,12 @@ footer .footer-below {
     transform: rotate(45deg);
 }
 
+.video-container {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  margin-top: 20px;
+}
+
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
