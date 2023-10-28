@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2023-10-02
-img: city.png
+img: 20231028_105819_city.png
 alt: image-alt
 video-id: 877900692
 video-title: Energy

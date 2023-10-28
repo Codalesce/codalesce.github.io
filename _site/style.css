@@ -259,32 +259,34 @@ section.success {
     }
 }
 
-/* Flexbox Portfolio Grid */
+/* Grid Portfolio Grid */
 @media (min-width: 640px) {
-    .portfolio-flex-grid .portfolio-flex-row {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
-      justify-content: space-between;
-    }
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-      max-width: 49%;
-    }
+  .portfolio-flex-grid .portfolio-flex-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
-  @media (min-width: 960px) {
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
-    }
+  .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+    width: 100%;
   }
-  /* A large grid might need four columns on widescreen layouts */
-  /* @media (min-width: 1380px) {
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 23.5%;
-      max-width: 23.5%;
-    }
-  } */
+}
+
+@media (min-width: 960px) {
+  /* Same as above, no changes needed */
+  .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+    width: 100%;
+  }
+}
+
+/* A large grid might need four columns on widescreen layouts */
+@media (min-width: 1380px) {
+  .portfolio-flex-grid .portfolio-flex-row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+    width: 100%;
+  }
+}
 
 .btn-outline {
     margin-top: 15px;
